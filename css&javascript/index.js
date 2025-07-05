@@ -49,13 +49,9 @@ const sr = ScrollReveal({
     // reset: true,  Aniamtion repeat
 })
 
-sr.reveal('.carousel-inner', {scale: 1.1})
+sr.reveal('.carousel-inner', {scale: 1})
 
 sr.reveal('.wlcome, .featured, .about__content, .footer')
-sr.reveal('.discover__content, .img__container', {origin: 'left'})
-sr.reveal('.discover__img, .contact__in', {origin: 'right'})
+sr.reveal('.discover__content, .img__container', {interval: 100})
+sr.reveal('.discover__img, .contact__in', {interval: 100})
 sr.reveal('.details, .sery', {interval: 100})
-
-
-
-
