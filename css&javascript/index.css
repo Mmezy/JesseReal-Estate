@@ -141,9 +141,9 @@ header {
         margin-bottom: 25px;
     }
 
-    .subtitle span {
-        /* margin-right: 50px; */
-    }
+    /* .subtitle span {
+        margin-right: 50px;
+    } */
 
     .contact__in {
         align-items: center;
@@ -200,6 +200,7 @@ header {
         margin-bottom: 20px;
         padding-left: 10px;
     }
+    
 
 
 
@@ -233,6 +234,15 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.footer__lg {
+    display: none;
+}
+
+}
+
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 4rem 3rem;
 }
 
 .nav__list {
@@ -331,7 +341,7 @@ header {
     }
 
     .contact__in .contact__po {
-        /* margin-left: 60px; */
+        margin-left: 60px;
         /* border: 1px solid red; */
         /* width: 650px; */
         margin-bottom: 10px;
@@ -598,3 +608,4 @@ i {
 footer a {
     text-decoration: none;
 }
+
