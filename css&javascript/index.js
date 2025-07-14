@@ -46,7 +46,7 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 2500,
     delay: 400,
-    // reset: true,  Aniamtion repeat
+    reset: true,  
 })
 
 sr.reveal('.carousel-inner', {scale: 1})
